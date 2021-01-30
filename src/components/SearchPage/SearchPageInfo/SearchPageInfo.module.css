@@ -1,0 +1,40 @@
+.list__container {
+    column-count: 3;
+    margin: var(--spacing-medium) 0;
+    padding: 0;
+    list-style-type: none;
+}
+.list__item {
+    /* margin: 0; */
+}
+.list__item a {
+    display: inline-flex;
+    color: var(--color-black);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+.person__photo {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    object-position: top center;
+    border-radius: var(--border-radius-small);
+}
+.person__name {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 var(--spacing-small);
+    color: var(--color-white);
+    text-shadow: var(--text-shadow-blue);
+}
+.person__comment {
+    color: var(--color-white);
+}
+
+@media screen and (max-width: 850px) {
+    .list__container {
+        column-count: 2;
+    }
+}

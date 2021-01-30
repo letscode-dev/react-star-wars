@@ -1,0 +1,21 @@
+:root {
+    --color-white:     #fff;
+    --color-lightgray: #dfe2df;
+    --color-gray:      #9c9c9c;
+    --color-blue:      #6a83fb;
+    --color-black:     #000;
+
+    --font-size-small: 14px;
+    --font-size-medium: 16px;
+
+    --font-bold: 600;
+    --font-family-main: sans-serif;
+    --transition: .4s;
+}
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+img {
+    display: block;
+}
