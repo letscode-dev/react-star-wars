@@ -2,11 +2,11 @@
 
 ## Links
 > Project
-- https://anton-sergeenkov.github.io/React-StarWars
+- https://dev-pandaren.github.io/react-star-wars
 > Repository
-- https://github.com/anton-sergeenkov/React-StarWars
+- https://github.com/dev-pandaren/react-star-wars
 > StoryBook
-- https://anton-sergeenkov.github.io/React-StarWars/storybook
+- https://dev-pandaren.github.io/react-star-wars/storybook
 
 ---
 
