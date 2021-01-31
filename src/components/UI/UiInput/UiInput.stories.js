@@ -26,7 +26,7 @@ const props = {
 	value: '',
     handleInputChange: () => console.log('Input Change'),
     placeholder: 'Placeholder',
-    classes: {},
+    classes: '',
 }
 
 export const Default = Template.bind({});

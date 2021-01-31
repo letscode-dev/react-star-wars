@@ -11,7 +11,7 @@ const Template = (args) => <UiVideo {...args} />;
 const props = {
 	src: video,
     playbackRate: 1,
-    classes: {},
+    classes: '',
 }
 
 export const Default = Template.bind({});

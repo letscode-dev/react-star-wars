@@ -10,7 +10,7 @@ const Template = (args) => <UiLoading {...args} />;
 const props = {
 	theme: 'black',
 	isShadow: false,
-	classes: {},
+	classes: '',
 }
 
 export const Black = Template.bind({});

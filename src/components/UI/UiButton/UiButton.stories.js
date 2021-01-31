@@ -12,7 +12,7 @@ const props = {
 	onClick: () => console.log('Button Click'),
 	disabled: false,
 	theme: 'light',
-	classes: {},
+	classes: '',
 }
 
 export const Light = Template.bind({});
