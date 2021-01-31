@@ -36,6 +36,7 @@ npm run deploy-storybook # storybook deploy
 ## Рассмотренные темы
 
 ### React.js
+- Разворачивание приложения с `create-react-app`
 - Состояние компонента (хук `useState`)
 - Жизненный цикл компонента (хук `useEffect`)
 - Context API (хук `useContext`)
@@ -52,7 +53,6 @@ npm run deploy-storybook # storybook deploy
 - Отложенная загрузка компонентов `React.lazy()`
 - Библиотека `prop-types` для валидации props
 - Отображение структуры компонентов с `React Developer Tools`
-- Развертывание приложения с `create-react-app`
 
 ### React Router
 - Базовый роутинг
