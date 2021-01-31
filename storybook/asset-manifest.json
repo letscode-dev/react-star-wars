@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "./static/css/main.6bc6dd45.chunk.css",
-    "main.js": "./main.5fe174ca9901b5cf28ad.bundle.js",
+    "main.js": "./main.5670b36e5a4f9b6583e7.bundle.js",
     "main.css.map": "./static/css/main.6bc6dd45.chunk.css.map",
-    "main.js.map": "./main.5fe174ca9901b5cf28ad.bundle.js.map",
-    "runtime~main.js": "./runtime~main.5fe174ca9901b5cf28ad.bundle.js",
-    "runtime~main.js.map": "./runtime~main.5fe174ca9901b5cf28ad.bundle.js.map",
-    "vendors~main.js": "./vendors~main.5fe174ca9901b5cf28ad.bundle.js",
-    "vendors~main.js.map": "./vendors~main.5fe174ca9901b5cf28ad.bundle.js.map",
+    "main.js.map": "./main.5670b36e5a4f9b6583e7.bundle.js.map",
+    "runtime~main.js": "./runtime~main.5670b36e5a4f9b6583e7.bundle.js",
+    "runtime~main.js.map": "./runtime~main.5670b36e5a4f9b6583e7.bundle.js.map",
+    "vendors~main.js": "./vendors~main.5670b36e5a4f9b6583e7.bundle.js",
+    "vendors~main.js.map": "./vendors~main.5670b36e5a4f9b6583e7.bundle.js.map",
     "iframe.html": "./iframe.html",
     "static/media/cancel.00e5d25a.svg": "./static/media/cancel.00e5d25a.svg",
     "static/media/loader-black.b67d16eb.svg": "./static/media/loader-black.b67d16eb.svg",
     "static/media/loader-blue.15bee0d1.svg": "./static/media/loader-blue.15bee0d1.svg",
     "static/media/loader-white.8beec21f.svg": "./static/media/loader-white.8beec21f.svg",
     "static/media/video.db435084.mp4": "./static/media/video.db435084.mp4",
-    "vendors~main.5fe174ca9901b5cf28ad.bundle.js.LICENSE.txt": "./vendors~main.5fe174ca9901b5cf28ad.bundle.js.LICENSE.txt"
+    "vendors~main.5670b36e5a4f9b6583e7.bundle.js.LICENSE.txt": "./vendors~main.5670b36e5a4f9b6583e7.bundle.js.LICENSE.txt"
   },
   "entrypoints": [
-    "runtime~main.5fe174ca9901b5cf28ad.bundle.js",
-    "vendors~main.5fe174ca9901b5cf28ad.bundle.js",
+    "runtime~main.5670b36e5a4f9b6583e7.bundle.js",
+    "vendors~main.5670b36e5a4f9b6583e7.bundle.js",
     "static/css/main.6bc6dd45.chunk.css",
-    "main.5fe174ca9901b5cf28ad.bundle.js"
+    "main.5670b36e5a4f9b6583e7.bundle.js"
   ]
 }
