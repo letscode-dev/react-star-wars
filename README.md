@@ -63,9 +63,9 @@ npm run deploy-storybook # storybook deploy
 
 ### Redux
 - Базовая структура react-redux-приложения
-- Отслеживание состояния store с `redux-devtools-extension`
-- Создание асинхронных action с библиотекой `redux-thunk`
 - Хуки `useDispatch`, `useSelector`
+- Создание асинхронных action с библиотекой `redux-thunk`
+- Отслеживание состояния store с `redux-devtools-extension`
 
 ### Общее
 - Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)
