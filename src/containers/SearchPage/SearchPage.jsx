@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect, useCallback } from 'react';
 import { debounce } from 'lodash';
 
@@ -62,6 +63,10 @@ const SearchPage = ({ setErrorApi }) => {
             <SearchPageInfo people={people} />
         </>
     )
+}
+
+SearchPage.propTypes = {
+	setErrorApi: PropTypes.func,
 }
 
 export default withErrorApi(SearchPage);

@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
+
 import { setPersonToFavorite, removePersonFromFavorites } from '@store/actions';
 
 import iconFavorite from './img/favorite.svg';
@@ -43,6 +45,14 @@ const PersonPhoto = ({
             </div>
         </>
     )
+}
+
+PersonPhoto.propTypes = {
+    personId: PropTypes.string,
+    personPhoto: PropTypes.string,
+    personName: PropTypes.string,
+    personFavorite: PropTypes.bool,
+    setPersonFavorite: PropTypes.func,
 }
 
 export default PersonPhoto;

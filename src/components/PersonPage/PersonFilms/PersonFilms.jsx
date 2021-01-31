@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
+
 import { makeConcurrentRequest, changeHTTP } from '@utils/network';
 
 import styles from './PersonFilms.module.css';
@@ -33,6 +35,10 @@ const PersonFilms = ({ personFilms }) => {
             </div>
         </>
     )
+}
+
+PersonFilms.propTypes = {
+    personFilms: PropTypes.array,
 }
 
 export default PersonFilms;

@@ -108,12 +108,11 @@ npm run deploy-storybook # storybook deploy
 ---
 
 ## TODO
-- Библиотека prop-types
 - Авторизация
 - Material UI, стилизация через css-in-js
-- Redux Thunk
 - Тесты: Jest, Enzyme, Cypress
 - Добавить шрифты
 - Перегруппировка компонентов Header при адаптиве
 - Favorites. Если нет данных, то отобразить сообщение
 - Роутер. Анимация при переходе между страницами
+- Redux Thunk

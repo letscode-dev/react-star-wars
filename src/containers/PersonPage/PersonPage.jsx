@@ -1,5 +1,7 @@
+import PropTypes from 'prop-types';
 import React, { useState, useEffect, Suspense } from 'react';
 import { useSelector } from 'react-redux';
+
 import { withErrorApi } from '@hoc-helpers/withErrorApi';
 
 import PersonPhoto from '@components/PersonPage/PersonPhoto';
@@ -83,6 +85,11 @@ const PersonPage = ({ match, setErrorApi }) => {
             </div>
         </>
     )
+}
+
+PersonPage.propTypes = {
+    match: PropTypes.object,
+	setErrorApi: PropTypes.func,
 }
 
 export default withErrorApi(PersonPage);

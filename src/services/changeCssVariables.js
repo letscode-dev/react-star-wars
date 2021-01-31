@@ -16,7 +16,5 @@ export const changeCssVariables = theme => {
             `--theme-default-${element}`,
             `var(--theme-${theme}-${element})`
         );
-
-        console.log(`--theme-default-${element}`, `var(--theme-${theme}-${element})`);
     })
 }

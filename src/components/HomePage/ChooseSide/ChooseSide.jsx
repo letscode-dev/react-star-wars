@@ -1,4 +1,6 @@
+import PropTypes from 'prop-types';
 import cn from 'classnames';
+
 import { useTheme, THEME_LIGHT, THEME_DARK, THEME_NEITRAL } from '@context/ThemeProvider';
 import imgLightSide from './img/light-side.jpg';
 import imgDarkSide from './img/dark-side.jpg';
@@ -20,6 +22,13 @@ const ChooseSideItem = ({
         <img className={styles.item__img} src={img} alt={text} />
     </div>
 )
+
+ChooseSideItem.propTypes = {
+    classes: PropTypes.string,
+    onClick: PropTypes.func,
+    text: PropTypes.string,
+    img: PropTypes.string,
+}
 
 const ChooseSide = () => {
     const isTheme = useTheme();

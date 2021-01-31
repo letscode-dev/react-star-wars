@@ -1,4 +1,5 @@
-import {  useEffect, useRef } from 'react';
+import PropTypes from 'prop-types';
+import { useEffect, useRef } from 'react';
 import cn from 'classnames';
 
 import '../index.css';
@@ -16,18 +17,22 @@ const UiVideo = ({
     }, []);
 
     return (
-        <>
-            <video
-                loop
-                autoPlay
-                muted
-                ref={videoRef}
-                className={cn(styles.video, classes)}
-            >
-                <source src={src} />
-            </video>
-        </>
+        <video
+            loop
+            autoPlay
+            muted
+            ref={videoRef}
+            className={cn(styles.video, classes)}
+        >
+            <source src={src} />
+        </video>
     )
+}
+
+UiVideo.propTypes = {
+    src: PropTypes.string,
+    playbackRate: PropTypes.number,
+    classes: PropTypes.string,
 }
 
 export default UiVideo;

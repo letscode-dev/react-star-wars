@@ -3,7 +3,7 @@ import { useSelector } from 'react-redux';
 
 import PeopleList from '@components/PeoplePage/PeopleList';
 
-import styles from './FavoritesPage.module.css';
+// import styles from './FavoritesPage.module.css';
 
 const FavoritesPage = () => {
     const [people, setPeople] = useState(null);

@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
 import cn from 'classnames';
 
@@ -26,14 +27,18 @@ const UiLoading = ({
     }, []);
 
     return (
-        <>
-            <img
-                className={cn(styles.loader, isShadow && styles.shadow, classes)}
-                src={loaderIcon}
-                alt="Loader"
-            />
-        </>
+        <img
+            className={cn(styles.loader, isShadow && styles.shadow, classes)}
+            src={loaderIcon}
+            alt="Loader"
+        />
     )
+}
+
+UiLoading.propTypes = {
+    theme: PropTypes.string,
+    isShadow: PropTypes.bool,
+    classes: PropTypes.string,
 }
 
 export default UiLoading;
