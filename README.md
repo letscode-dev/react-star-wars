@@ -52,7 +52,6 @@ npm run deploy-storybook # storybook deploy
 - Списки и ключи, `Reconciliation Algorithm`
 - Отложенная загрузка компонентов `React.lazy()`
 - Библиотека `prop-types` для валидации props
-- Отображение структуры компонентов с `React Developer Tools`
 
 ### React Router
 - Базовый роутинг
