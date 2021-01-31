@@ -113,6 +113,5 @@ npm run deploy-storybook # storybook deploy
 - Тесты: Jest, Enzyme, Cypress
 - Добавить шрифты
 - Перегруппировка компонентов Header при адаптиве
-- Favorites. Если нет данных, то отобразить сообщение
 - Роутер. Анимация при переходе между страницами
 - Redux Thunk
