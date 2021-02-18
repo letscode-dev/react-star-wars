@@ -1,5 +1,8 @@
 # Star Wars
 
+## Lighthouse Metrics Performance
+<img src="src/_temp/readme/lighthouse.png" />
+
 ## Links
 > Project
 - https://dev-pandaren.github.io/react-star-wars
