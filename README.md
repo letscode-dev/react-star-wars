@@ -34,7 +34,7 @@ npm run deploy-storybook # storybook deploy
 ---
 
 ## Lighthouse Metrics Performance
-<img src="src/_temp/readme/lighthouse.png" width="450px" />
+<img src="src/_temp/readme/lighthouse.png" width="500px" />
 
 ---
 
