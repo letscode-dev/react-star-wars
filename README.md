@@ -1,30 +1,34 @@
 # Star Wars
 
 ## Links
-> Project
-- https://dev-pandaren.github.io/react-star-wars
-> Repository
-- https://github.com/dev-pandaren/react-star-wars
-> StoryBook
-- https://dev-pandaren.github.io/react-star-wars/storybook
-
----
+- `Project` https://dev-pandaren.github.io/react-star-wars
+- `Repository` https://github.com/dev-pandaren/react-star-wars
+- `StoryBook` https://dev-pandaren.github.io/react-star-wars/storybook
+- `YouTube Playlist` https://www.youtube.com/playlist?list=PL7cTIfGFrdKkQAWKDu2NdFt5Cx38B-A3i
+- `Dev Pandaren` https://dev-pandaren.github.io/
 
 ## Available Scripts and Commands
+
 ```bash
 # Install
 npm i                    # install dependencies
+```
 
+```bash
 # General
 npm run start            # run app in the development mode
 npm run storybook        # run storybook
 npm run deploy           # deploy app on Github Pages
+```
 
+```bash
 # Deploy (part of "deploy" script)
 npm run build            # builds the app for production
 npm run build-storybook  # storybook build
 npm run build-gh-pages   # deploy on Github Pages
+```
 
+```bash
 # Not used
 npm run eject            # remove the single build dependency
 npm run deploy-storybook # storybook deploy
@@ -33,8 +37,6 @@ npm run deploy-storybook # storybook deploy
 ## API
 - https://swapi.dev
 - https://starwars-visualguide.com
-
----
 
 ## Lighthouse Metrics Performance
 <img src="src/_temp/readme/lighthouse.png" width="500px" />
