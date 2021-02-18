@@ -10,8 +10,11 @@
 
 ---
 
-## Available Scripts
+## Available Scripts and Commands
 ```bash
+# Install
+npm i                    # install dependencies
+
 # General
 npm run start            # run app in the development mode
 npm run storybook        # run storybook
