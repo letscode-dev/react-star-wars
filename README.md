@@ -1,8 +1,5 @@
 # Star Wars
 
-## Lighthouse Metrics Performance
-<img src="src/_temp/readme/lighthouse.png" />
-
 ## Links
 > Project
 - https://dev-pandaren.github.io/react-star-wars
@@ -33,6 +30,11 @@ npm run deploy-storybook # storybook deploy
 ## API
 - https://swapi.dev
 - https://starwars-visualguide.com
+
+---
+
+## Lighthouse Metrics Performance
+<img src="src/_temp/readme/lighthouse.png" width="450px" />
 
 ---
 
