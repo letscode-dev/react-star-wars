@@ -46,7 +46,7 @@ npm run deploy-storybook # storybook deploy
 ## Рассмотренные темы
 
 ### React.js
-- Разворачивание приложения с `create-react-app`
+- ~~Разворачивание приложения с `create-react-app`~~
 - Состояние компонента (хук `useState`)
 - Жизненный цикл компонента (хук `useEffect`)
 - Context API (хук `useContext`)
@@ -58,7 +58,7 @@ npm run deploy-storybook # storybook deploy
 - Паттерн `Подъём состояния`
 - Обработка событий
 - Controlled Components
-- Подключение CSS, `css-modules`, библиотека `classnames`
+- ~~Подключение CSS, `css-modules`, библиотека `classnames`~~
 - Списки и ключи, `Reconciliation Algorithm`
 - Отложенная загрузка компонентов `React.lazy()`
 - Библиотека `prop-types` для валидации props
