@@ -81,6 +81,7 @@ npm run deploy-storybook # storybook deploy
 - Деплой приложения на GitHub Pages (библиотека `gh-pages`)
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
+- Проверка производительности в `Lighthouse`
 
 ### JavaScript
 - Методы работы с массивами: `map`, `filter`, `forEach`
