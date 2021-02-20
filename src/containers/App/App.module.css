@@ -1,11 +1,6 @@
-.wrapper {
-    max-width: var(--width-max);
-    margin: auto;
-    padding: var(--spacing-large) 0;
+.header {
+    color: blue;
 }
-
-@media screen and (max-width: 1400px) {
-    .wrapper {
-        padding: var(--spacing-large) var(--spacing-large);
-    }
+.text {
+    text-decoration: underline;
 }
