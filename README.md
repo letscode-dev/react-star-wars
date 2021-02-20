@@ -1,4 +1,4 @@
-# 🌌 Star Wars
+# 🌌 Star Wars Application
 
 ## 🌠 Links
 - `Project` https://dev-pandaren.github.io/react-star-wars
