@@ -82,6 +82,7 @@ npm run deploy-storybook # storybook deploy
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
 - Проверка производительности в `Lighthouse`
+- `Visual Studio Code`. Сниппеты и плагины
 
 ### JavaScript
 - Методы работы с массивами: `map`, `filter`, `forEach`
