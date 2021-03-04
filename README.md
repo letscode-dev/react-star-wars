@@ -1,6 +1,6 @@
 # 🪐 Star Wars Application
 
-## 🐻 Links
+## 🐧 Links
 - `Project` https://dev-pandaren.github.io/react-star-wars
 - `Repository` https://github.com/dev-pandaren/react-star-wars
 - `StoryBook` https://dev-pandaren.github.io/react-star-wars/storybook
