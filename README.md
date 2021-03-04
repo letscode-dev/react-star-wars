@@ -7,7 +7,9 @@
 - `YouTube Playlist` https://www.youtube.com/playlist?list=PL7cTIfGFrdKkQAWKDu2NdFt5Cx38B-A3i
 - `Dev Pandaren` https://dev-pandaren.github.io/
 
-## 🐴 Available Scripts and Commands
+---
+
+## 🐶 Available Scripts and Commands
 
 ```bash
 # Install
@@ -34,9 +36,15 @@ npm run eject            # remove the single build dependency
 npm run deploy-storybook # storybook deploy
 ```
 
+---
+
 ## 🦄 API
 - https://swapi.dev
 - https://starwars-visualguide.com
+
+
+---
+
 
 ## 🐗 Lighthouse Metrics Performance
 <img src="src/_temp/readme/lighthouse.png" width="500px" />
