@@ -55,19 +55,19 @@ npm run deploy-storybook # storybook deploy
 
 ### React.js
 - ~~Разворачивание приложения с `create-react-app`~~
-- Состояние компонента (хук `useState`)
-- Жизненный цикл компонента (хук `useEffect`)
+- ~~Состояние компонента (хук `useState`)~~
+- ~~Жизненный цикл компонента (хук `useEffect`)~~
 - Context API (хук `useContext`)
 - Рефы и DOM (хук `useRef`)
 - Мемоизация (хук `useCallback`)
 - Создание собственных хуков
-- Фрагменты
+- ~~Фрагменты~~
 - Паттерн `Higher-Order Component`
 - Паттерн `Подъём состояния`
 - Обработка событий
 - Controlled Components
 - ~~Подключение CSS, `css-modules`, библиотека `classnames`~~
-- Списки и ключи, `Reconciliation Algorithm`
+- ~~Списки и ключи, `Reconciliation Algorithm`~~
 - Отложенная загрузка компонентов `React.lazy()`
 - Библиотека `prop-types` для валидации props
 
@@ -90,17 +90,17 @@ npm run deploy-storybook # storybook deploy
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
 - Проверка производительности в `Lighthouse`
-- `Visual Studio Code`. Сниппеты и плагины
+- ~~`Visual Studio Code`. Сниппеты и плагины~~
 
 ### JavaScript
 - Методы работы с массивами: `map`, `filter`, `forEach`
-- Асинхронность: `Promise`, `Async Functions`
-- ES6-модули (import и export)
+- ~~Асинхронность: `Promise`, `Async Functions`~~
+- ~~ES6-модули (import и export)~~
 - Оператор разворота для объектов (props для компонента)
-- Деструктуризация массивов и объектов
-- Тернарные операторы
+- ~~Деструктуризация массивов и объектов~~
+- ~~Тернарные операторы~~
 - Работа с Local Storage
-- Работа с API с использованием `Fetch`
+- ~~Работа с API с использованием `Fetch`~~
 
 ### Вёрстка
 - CSS Custom Properties, изменение через JavaScript
@@ -134,3 +134,8 @@ npm run deploy-storybook # storybook deploy
 - Перегруппировка компонентов Header при адаптиве
 - Роутер. Анимация при переходе между страницами
 - Redux Thunk
+- Публикация NPM-пакета
+
+
+
+
