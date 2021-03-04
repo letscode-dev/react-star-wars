@@ -1,13 +1,13 @@
 # 🪐 Star Wars Application
 
-## 💫 Links
+## 🐻 Links
 - `Project` https://dev-pandaren.github.io/react-star-wars
 - `Repository` https://github.com/dev-pandaren/react-star-wars
 - `StoryBook` https://dev-pandaren.github.io/react-star-wars/storybook
 - `YouTube Playlist` https://www.youtube.com/playlist?list=PL7cTIfGFrdKkQAWKDu2NdFt5Cx38B-A3i
 - `Dev Pandaren` https://dev-pandaren.github.io/
 
-## 💫 Available Scripts and Commands
+## 🐞 Available Scripts and Commands
 
 ```bash
 # Install
@@ -34,16 +34,16 @@ npm run eject            # remove the single build dependency
 npm run deploy-storybook # storybook deploy
 ```
 
-## ⚡️ API
+## 🦄 API
 - https://swapi.dev
 - https://starwars-visualguide.com
 
-## 🌠 Lighthouse Metrics Performance
+## 🐗 Lighthouse Metrics Performance
 <img src="src/_temp/readme/lighthouse.png" width="500px" />
 
 ---
 
-## ⛰ Рассмотренные темы
+## 🐼 Рассмотренные темы
 
 ### React.js
 - ~~Разворачивание приложения с `create-react-app`~~
@@ -103,7 +103,7 @@ npm run deploy-storybook # storybook deploy
 
 ---
 
-## ⛰ Порядок импортов
+## 🐣 Порядок импортов
 - Библиотеки
 - Контекст
 - HOC
@@ -118,7 +118,7 @@ npm run deploy-storybook # storybook deploy
 
 ---
 
-## ⛰ TODO
+## 🐨 TODO
 - Авторизация
 - Material UI, стилизация через css-in-js
 - Тесты: Jest, Enzyme, Cypress
