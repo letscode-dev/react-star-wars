@@ -62,7 +62,7 @@ npm run deploy-storybook # storybook deploy
 - Мемоизация (хук `useCallback`)
 - Создание собственных хуков
 - ~~Фрагменты~~
-- Паттерн `Higher-Order Component`
+- ~~Паттерн `Higher-Order Component`~~
 - Паттерн `Подъём состояния`
 - Обработка событий
 - Controlled Components
