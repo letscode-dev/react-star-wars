@@ -120,6 +120,7 @@ npm run deploy-storybook # storybook deploy
 - Изображения
 - Хуки
 - Роуты
+- Сервисы
 - Утилиты
 - Константы
 - Стили
