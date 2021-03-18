@@ -136,7 +136,7 @@ npm run deploy-storybook # storybook deploy
 - Роутер. Анимация при переходе между страницами
 - Redux Thunk
 - Публикация NPM-пакета
-
+- `React Hook Form` для обработки данных форм
 
 
 
