@@ -2,7 +2,7 @@
 VARIABLES
 /***************************************************/
 :root {
-	--color-white:       #fff;
+    --color-white:       #fff;
     --color-black:       #000;
     --color-yellow:      #ffff00;
     --color-blue-light:  #e1e9eb;
@@ -103,22 +103,22 @@ SCROLL
 /***************************************************/
 /* Firefox */
 * {
-	scrollbar-color: rgba(255, 255, 255, .9)  rgba(0, 0, 0, .7);
-	scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, .9)  rgba(0, 0, 0, .7);
+    scrollbar-width: thin;
 }
 
 /* Chrome */
 ::-webkit-scrollbar {
-	width: 8px;
-	height: 8px;
+    width: 8px;
+    height: 8px;
 }
 ::-webkit-scrollbar-thumb {
-	background-color: rgb(37, 56, 97);
+    background-color: rgb(37, 56, 97);
     border-radius: 2px;
     transition: var(--transition);
 }
 ::-webkit-scrollbar-track {
-	background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, .7);
 }
 ::-webkit-scrollbar-corner {
     background-color: rgba(0, 0, 0, .7);
