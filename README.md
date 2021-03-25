@@ -69,10 +69,10 @@ npm run deploy-storybook # storybook deploy
 - ~~Подключение CSS, `css-modules`, библиотека `classnames`~~
 - ~~Списки и ключи, `Reconciliation Algorithm`~~
 - Отложенная загрузка компонентов `React.lazy()`
-- Библиотека `prop-types` для валидации props
+- ~~Библиотека `prop-types` для валидации props~~
 
 ### React Router
-- Базовый роутинг
+- ~~Базовый роутинг~~
 - Параметры в URL
 - Query Parameters в URL
 - Обработка страницы 404 (Not Found)
@@ -85,7 +85,7 @@ npm run deploy-storybook # storybook deploy
 - Отслеживание состояния store с `redux-devtools-extension`
 
 ### Общее
-- Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)
+- ~~Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)~~
 - Деплой приложения на GitHub Pages (библиотека `gh-pages`)
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
@@ -105,7 +105,7 @@ npm run deploy-storybook # storybook deploy
 ### Вёрстка
 - CSS Custom Properties, изменение через JavaScript
 - CSS Filters
-- CSS Flexbox
+- ~~CSS Flexbox~~
 - CSS Multi Columns
 - Стилизация скроллбара
 
