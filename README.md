@@ -73,8 +73,8 @@ npm run deploy-storybook # storybook deploy
 
 ### React Router
 - ~~Базовый роутинг~~
-- Параметры в URL
-- Query Parameters в URL
+- URL Parameters
+- Query Parameters
 - Обработка страницы 404 (Not Found)
 - Хуки `useLocation` и `useHistory`
 
