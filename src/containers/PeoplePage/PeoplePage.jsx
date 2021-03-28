@@ -48,7 +48,7 @@ const PeoplePage = ({ setErrorApi }) => {
 
     useEffect(() => {
         getResponse(API_PEOPLE+queryPage);
-    }, [queryPage]);
+    }, []);
 
     return (
         <>
