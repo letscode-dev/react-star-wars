@@ -1,42 +1,19 @@
 {
-	"name": "star-wars",
+	"name": "react-star-wars",
 	"version": "0.1.0",
-	"homepage": "https://dev-pandaren.github.io/react-star-wars/",
 	"private": true,
 	"dependencies": {
 		"classnames": "^2.2.6",
-		"lodash": "^4.17.20",
 		"prop-types": "^15.7.2",
 		"react": "^17.0.1",
 		"react-dom": "^17.0.1",
-		"react-redux": "^7.2.2",
 		"react-router": "^5.2.0",
 		"react-router-dom": "^5.2.0",
-		"react-scripts": "4.0.1",
-		"redux": "^4.0.5",
-		"redux-devtools-extension": "^2.13.8",
-		"redux-thunk": "^2.3.0"
-	},
-	"devDependencies": {
-		"@storybook/addon-actions": "^6.1.15",
-		"@storybook/addon-essentials": "^6.1.15",
-		"@storybook/addon-links": "^6.1.15",
-		"@storybook/node-logger": "^6.1.15",
-		"@storybook/preset-create-react-app": "^3.1.5",
-		"@storybook/react": "^6.1.15",
-		"@storybook/storybook-deployer": "^2.8.7",
-		"gh-pages": "^3.1.0",
-		"react-app-rewire-alias": "^0.1.9",
-		"react-app-rewired": "^2.1.8"
+		"react-scripts": "4.0.2"
 	},
 	"scripts": {
 		"start": "react-app-rewired start",
-		"storybook": "start-storybook -p 6006 -s public",
-		"deploy": "npm run build && npm run build-storybook && npm run build-gh-pages",
 		"build": "react-app-rewired build",
-		"build-storybook": "build-storybook -o ./build/storybook",
-		"build-gh-pages": "gh-pages -d build",
-		"deploy-storybook": "storybook-to-ghpages",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {
@@ -56,5 +33,9 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
+	},
+	"devDependencies": {
+		"react-app-rewire-alias": "^1.0.1",
+		"react-app-rewired": "^2.1.8"
 	}
 }

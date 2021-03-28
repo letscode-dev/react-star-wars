@@ -3,13 +3,6 @@
     align-items: center;
     margin-bottom: var(--spacing-large);
 }
-.logo {
-    width: 60px;
-    height: 60px;
-    margin-right: var(--spacing-large);
-    object-fit: contain;
-    object-position: center center;
-}
 .list__container {
     display: flex;
     flex-wrap: wrap;
