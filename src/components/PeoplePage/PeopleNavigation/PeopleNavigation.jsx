@@ -16,20 +16,18 @@ const PeopleNavigation = ({
 
     return (
         <div className={styles.container}>
-            <Link to={`/people/?page=${counterPage-1}`}>
+            <Link to={`/people/?page=${counterPage-1}`} className={styles.buttons}>
                 <UiButton
                     text="Previous"
                     onClick={handleChangePrev}
                     disabled={!prevPage}
-                    classes={styles.buttons}
                 />
             </Link>
-            <Link to={`/people/?page=${counterPage+1}`}>
+            <Link to={`/people/?page=${counterPage+1}`} className={styles.buttons}>
                 <UiButton
                     text="Next"
                     onClick={handleChangeNext}
                     disabled={!nextPage}
-                    classes={styles.buttons}
                 />
             </Link>
         </div>

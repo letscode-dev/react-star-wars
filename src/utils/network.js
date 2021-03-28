@@ -1,7 +1,7 @@
 import { HTTP, HTTPS } from '@constants/api';
 
 /**
- * Изменяет с HTTP на HTTPS
+ * Изменяет URL с HTTP на HTTPS
  * @param {String} url - url для изменения
  * @return {String} - url с HTTPS
  */

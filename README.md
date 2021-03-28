@@ -60,7 +60,7 @@ npm run deploy-storybook # storybook deploy
 - Context API (хук `useContext`)
 - Рефы и DOM (хук `useRef`)
 - Мемоизация (хук `useCallback`)
-- Создание собственных хуков
+- ~~Создание собственных хуков~~
 - ~~Фрагменты~~
 - ~~Паттерн `Higher-Order Component`~~
 - Паттерн `Подъём состояния`
@@ -74,8 +74,8 @@ npm run deploy-storybook # storybook deploy
 ### React Router
 - ~~Базовый роутинг~~
 - URL Parameters
-- Query Parameters
-- Обработка страницы 404 (Not Found)
+- ~~Query Parameters~~
+- ~~Обработка страницы 404 (Not Found)~~
 - Хуки `useLocation` и `useHistory`
 
 ### Redux
@@ -96,7 +96,7 @@ npm run deploy-storybook # storybook deploy
 - Методы работы с массивами: `map`, `filter`, `forEach`
 - ~~Асинхронность: `Promise`, `Async Functions`~~
 - ~~ES6-модули (import и export)~~
-- Оператор разворота для объектов (props для компонента)
+- ~~Оператор разворота для объектов (props для компонента)~~
 - ~~Деструктуризация массивов и объектов~~
 - ~~Тернарные операторы~~
 - Работа с Local Storage
@@ -137,5 +137,4 @@ npm run deploy-storybook # storybook deploy
 - `Redux Thunk`
 - `React Hook Form` для обработки данных форм
 - Публикация NPM-пакета
-
-
+- ESLint + Prettier
