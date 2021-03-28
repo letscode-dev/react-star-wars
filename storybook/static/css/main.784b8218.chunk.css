@@ -20,7 +20,7 @@ img {
     display: block;
 }
 
-.UiButton_button__9e4lI {
+.UiButton_button__29UTV {
     min-width: 100px;
     padding: 10px 10px;
     border-radius: 3px;
@@ -32,8 +32,8 @@ img {
     transition: var(--transition);
     cursor: pointer;
 }
-.UiButton_button__9e4lI:disabled,
-.UiButton_button__9e4lI:disabled:hover {
+.UiButton_button__29UTV:disabled,
+.UiButton_button__29UTV:disabled:hover {
     color: var(--color-gray);
     background-color: transparent;
     border-color: var(--color-gray);
@@ -43,35 +43,36 @@ img {
 /***************************************************
 THEME
 /***************************************************/
-.UiButton_dark__1o5Fn {
+.UiButton_dark__2IRgP {
     border: 1px solid var(--color-white);
     color: var(--color-white);
 }
-.UiButton_dark__1o5Fn:hover {
+.UiButton_dark__2IRgP:hover {
     color: var(--color-black);
     background-color: var(--color-white);
 }
 
-.UiButton_light__37U1k {
+.UiButton_light__3ptZC {
     border: 1px solid var(--color-black);
     color: var(--color-black);
 }
-.UiButton_light__37U1k:hover {
+.UiButton_light__3ptZC:hover {
     color: var(--color-white);
     background-color: var(--color-black);
 }
 
-.UiInput_wrapper__input__skt19 {
+.UiInput_wrapper__input__apDkp {
     --border-radius: 3px;
     --border: 3px;
     --clear-width: 35px;
 }
 
-.UiInput_wrapper__input__skt19 {
+.UiInput_wrapper__input__apDkp {
     position: relative;
+    display: -webkit-inline-flex;
     display: inline-flex;
 }
-.UiInput_input__4Ho1H {
+.UiInput_input__3wM0R {
     min-width: 300px;
     padding: 10px 15px;
     padding-right: calc(var(--clear-width) + 15px);
@@ -82,10 +83,10 @@ THEME
     font-family: var(--font-family-main);
     outline: none;
 }
-.UiInput_input__4Ho1H:focus {
+.UiInput_input__3wM0R:focus {
     border-color: var(--color-blue);
 }
-.UiInput_clear__3tuBe {
+.UiInput_clear__6FIiR {
     position: absolute;
     top: var(--border);
     right: var(--border);
@@ -100,19 +101,19 @@ THEME
     opacity: .4;
     cursor: pointer;
 }
-.UiInput_clear__disabled__2HCMG {
+.UiInput_clear__disabled__9TXkH {
     opacity: .2;
 }
 
-.UiLoading_loader__OVC75 {
+.UiLoading_loader__3Q1sn {
     width: 120px;
     height: 120px;
 }
-.UiLoading_shadow__3XuV5 {
+.UiLoading_shadow__1NPPZ {
     -webkit-filter: drop-shadow(0 0 2px #000);
             filter: drop-shadow(0 0 2px #000);
 }
 
 
 
-/*# sourceMappingURL=main.6bc6dd45.chunk.css.map*/
+/*# sourceMappingURL=main.784b8218.chunk.css.map*/
