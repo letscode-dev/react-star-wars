@@ -64,7 +64,7 @@ npm run deploy-storybook # storybook deploy
 - ~~Фрагменты~~
 - ~~Паттерн `Higher-Order Component`~~
 - Паттерн `Подъём состояния`
-- Обработка событий
+- ~~Обработка событий~~
 - Controlled Components
 - ~~Подключение CSS, `css-modules`, библиотека `classnames`~~
 - ~~Списки и ключи, `Reconciliation Algorithm`~~
@@ -87,7 +87,7 @@ npm run deploy-storybook # storybook deploy
 ### Общее
 - ~~Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)~~
 - Деплой приложения на GitHub Pages (библиотека `gh-pages`)
-- Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
+- ~~Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`~~
 - Библиотека `lodash` с готовыми функциями
 - Проверка производительности в `Lighthouse`
 - ~~`Visual Studio Code`. Сниппеты и плагины~~
