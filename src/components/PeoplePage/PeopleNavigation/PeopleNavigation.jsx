@@ -6,13 +6,13 @@ import UiButton from '@ui/UiButton';
 import styles from './PeopleNavigation.module.css';
 
 const PeopleNavigation = ({
-    getResponse,
+    getResource,
     prevPage,
     nextPage,
     counterPage
 }) => {
-    const handleChangeNext = () => getResponse(nextPage);
-    const handleChangePrev = () => getResponse(prevPage);
+    const handleChangeNext = () => getResource(nextPage);
+    const handleChangePrev = () => getResource(prevPage);
 
     return (
         <div className={styles.container}>
@@ -35,7 +35,7 @@ const PeopleNavigation = ({
 }
 
 PeopleNavigation.propTypes = {
-    getResponse: PropTypes.func,
+    getResource: PropTypes.func,
     prevPage: PropTypes.string,
     nextPage: PropTypes.string,
     counterPage: PropTypes.number,

@@ -10,15 +10,17 @@ const UiButton = ({
     disabled,
     theme='dark',
     classes
-}) => (
-    <button
-        onClick={onClick}
-        className={cn(styles.button, styles[theme], classes)}
-        disabled={disabled}
-    >
-        {text}
-    </button>
-)
+}) => {
+    return (
+        <button
+            onClick={onClick}
+            disabled={disabled}
+            className={cn(styles.button, styles[theme], classes)}
+        >
+            {text}
+        </button>
+    )
+}
 
 UiButton.propTypes = {
     text: PropTypes.string,
@@ -29,9 +31,3 @@ UiButton.propTypes = {
 }
 
 export default UiButton;
-
-// import UiButton from '../../components/UiButton';
-// const handleButtonClick = () => {
-//     console.log('click');
-// }
-// <UiButton text="Hello" onClick={handleButtonClick} />
