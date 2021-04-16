@@ -99,6 +99,7 @@ npm run deploy-storybook # storybook deploy
 + Библиотека `lodash` с готовыми функциями
 + Проверка производительности в `Lighthouse`
 // `Visual Studio Code`. Сниппеты и плагины
++ .bat-файлы для запуска скриптов
 ```
 
 ### JavaScript
