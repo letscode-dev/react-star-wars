@@ -72,12 +72,14 @@ npm run deploy-storybook # storybook deploy
 - Отложенная загрузка компонентов `React.lazy()`
 - ~~Библиотека `prop-types` для валидации props~~
 
+```
 ### React Router
-- ~~Базовый роутинг~~
-- ~~URL Parameters~~
-- ~~Query Parameters~~
-- ~~Обработка страницы 404 (Not Found)~~
+- Базовый роутинг
+- URL Parameters
+- Query Parameters
+- Обработка страницы 404 (Not Found)
 - Хуки `useLocation` и `useHistory`
+```
 
 ### Redux
 - Базовая структура react-redux-приложения
