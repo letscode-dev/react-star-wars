@@ -75,44 +75,52 @@ npm run deploy-storybook # storybook deploy
 ```
 
 ### React Router
-```bash
-# Базовый роутинг
-# URL Parameters
-# Query Parameters
-# Обработка страницы 404 (Not Found)
-# Хуки `useLocation` и `useHistory`
+```js
+// Базовый роутинг
+// URL Parameters
+// Query Parameters
+// Обработка страницы 404 (Not Found)
+// Хуки `useLocation` и `useHistory`
 ```
 
 ### Redux
-- Базовая структура react-redux-приложения
-- Хуки `useDispatch`, `useSelector`
-- Создание асинхронных action с библиотекой `redux-thunk`
-- Отслеживание состояния store с `redux-devtools-extension`
+```js
++ Базовая структура react-redux-приложения
++ Хуки `useDispatch`, `useSelector`
++ Создание асинхронных action с библиотекой `redux-thunk`
++ Отслеживание состояния store с `redux-devtools-extension`
+```
 
 ### Общее
-- ~~Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)~~
-- Деплой приложения на GitHub Pages (библиотека `gh-pages`)
-- ~~Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`~~
-- Библиотека `lodash` с готовыми функциями
-- Проверка производительности в `Lighthouse`
-- ~~`Visual Studio Code`. Сниппеты и плагины~~
+```js
+// Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)
++ Деплой приложения на GitHub Pages (библиотека `gh-pages`)
+// Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
++ Библиотека `lodash` с готовыми функциями
++ Проверка производительности в `Lighthouse`
+// `Visual Studio Code`. Сниппеты и плагины
+```
 
 ### JavaScript
+```js
 - Методы работы с массивами: `map`, `filter`, `forEach`
-- ~~Асинхронность: `Promise`, `Async Functions`~~
-- ~~ES6-модули (import и export)~~
-- ~~Оператор разворота для объектов (props для компонента)~~
-- ~~Деструктуризация массивов и объектов~~
-- ~~Тернарные операторы~~
-- Работа с Local Storage
-- ~~Работа с API с использованием `Fetch`~~
+// Асинхронность: `Promise`, `Async Functions`
+// ES6-модули (import и export)
+// Оператор разворота для объектов (props для компонента)
+// Деструктуризация массивов и объектов
+// Тернарные операторы
++ Работа с Local Storage
+// Работа с API с использованием `Fetch`
+```
 
 ### Вёрстка
-- CSS Custom Properties, изменение через JavaScript
-- CSS Filters
-- ~~CSS Flexbox~~
-- CSS Multi Columns
-- Стилизация скроллбара
+```js
++ CSS Custom Properties, изменение через JavaScript
++ CSS Filters
+// CSS Flexbox
++ CSS Multi Columns
++ Стилизация скроллбара
+```
 
 ---
 
