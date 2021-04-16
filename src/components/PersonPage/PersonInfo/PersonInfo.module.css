@@ -14,7 +14,6 @@
 .list__item {
     padding: var(--spacing-ultrasmall);
     margin-bottom: var(--margin-list);
-    color: var(--color-white);
 }
 .item__title {
     text-decoration: underline;

@@ -42,26 +42,10 @@ export const getApiResource = async (url) => {
  * @param {Array<String>} urls - массив с URL для запроса
  * @return {Promise} - Promise с результатом запросов
  */
-export const makeConcurrentRequest = urls => {
-    return new Promise(resolve => {
-        let result = [];
-        let counter = 0;
+export const makeConcurrentRequest = async (urls) => {
+    const res = await Promise.all(urls.map(res => {
+		return fetch(res).then(res => res.json())
+	 }))
 
-        const makeRequest = index => {
-            fetch(urls[index])
-                .then(res => res.json())
-                .then(body => {
-                    result[index] = body;
-
-                    if (urls.length-1 === counter) {
-                        resolve(result);
-                    } else {
-                        counter++;
-                        makeRequest(counter);
-                    }
-                })
-        }
-
-        makeRequest(0);
-    });
+	 return res;
 };
