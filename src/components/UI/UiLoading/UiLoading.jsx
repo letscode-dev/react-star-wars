@@ -23,7 +23,6 @@ const UiLoading = ({
             case 'blue': setLoaderIcon(loaderBlue); break;
             default: setLoaderIcon(loaderBlack);
         }
-    
     }, []);
 
     return (
