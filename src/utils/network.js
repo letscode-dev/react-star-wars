@@ -3,7 +3,7 @@ import { HTTP, HTTPS } from '@constants/api';
 /**
  * Изменяет URL с HTTP на HTTPS
  * @param {String} url - url для изменения
- * @return {String} - url с HTTPS
+ * @returns {String} - url с HTTPS
  */
 export const changeHTTP = url => {
     const result = url ? url.replace(HTTP, HTTPS) : url;
@@ -14,38 +14,36 @@ export const changeHTTP = url => {
 /**
  * Отправляет запрос Fetch
  * @param {String} url - url для запроса
- * @return {Promise} - Promise с результатом запроса
+ * @returns {Promise} - Promise с результатом запроса
  */
 export const getApiResource = async (url) => {
-	try {
-		const res = await fetch(url);
+    try {
+        const res = await fetch(url);
 
-		if (!res.ok) {
-			console.error('Could not fetch.', res.status);
-			return false;
-		}
+        if (!res.ok) {
+            console.error('Could not fetch.', res.status);
+            return false;
+        }
 
-		return await res.json();
-	} catch (error) {
-		console.error('Could not fetch.', error.message);
-		return false;
-	}
+        return await res.json(); 
+    } catch (error) {
+        console.error('Could not fetch.', error.message);
+        return false;
+    }
 }
 
+// getApiResource(SWAPI_ROOT+SWAPI_PEOPLE)
+//     .then(body => console.log(body))
+
 // (async () => {
-// 	const body = await getApiResource('https://swapi.dev/api/planets/1zzz/');
-// 	console.log(body);
+//     const body = await getApiResource(SWAPI_ROOT+SWAPI_PEOPLE);
+//     console.log(body);
 // })();
 
-/**
- * Отправляет несколко запросов Fetch из массива URL
- * @param {Array<String>} urls - массив с URL для запроса
- * @return {Promise} - Promise с результатом запросов
- */
-export const makeConcurrentRequest = async (urls) => {
-    const res = await Promise.all(urls.map(res => {
-		return fetch(res).then(res => res.json())
-	 }))
+export const makeConcurrentRequest = async (url) => {
+    const res = await Promise.all(url.map(res => {
+        return fetch(res).then(res => res.json())
+    }));
 
-	 return res;
-};
+    return res;
+}
