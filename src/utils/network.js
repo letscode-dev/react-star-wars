@@ -6,9 +6,7 @@ import { HTTP, HTTPS } from '@constants/api';
  * @return {String} - url с HTTPS
  */
 export const changeHTTP = url => {
-    const result = url ? url.replace(HTTP, HTTPS) : url;
-
-    return result;
+    return url ? url.replace(HTTP, HTTPS) : url;
 }
 
 /**
