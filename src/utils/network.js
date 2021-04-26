@@ -6,9 +6,7 @@ import { HTTP, HTTPS } from '@constants/api';
  * @returns {String} - url с HTTPS
  */
 export const changeHTTP = url => {
-    const result = url ? url.replace(HTTP, HTTPS) : url;
-
-    return result;
+    return url ? url.replace(HTTP, HTTPS) : url;
 }
 
 /**
@@ -25,7 +23,7 @@ export const getApiResource = async (url) => {
             return false;
         }
 
-        return await res.json(); 
+        return await res.json();
     } catch (error) {
         console.error('Could not fetch.', error.message);
         return false;
