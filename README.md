@@ -70,7 +70,7 @@ npm run deploy-storybook # storybook deploy
 + Controlled Components
 // Подключение CSS, `css-modules`, библиотека `classnames`
 // Списки и ключи, `Reconciliation Algorithm`
-+ Отложенная загрузка компонентов `React.lazy()`
+// Отложенная загрузка компонентов `React.lazy()`
 // Библиотека `prop-types` для валидации props
 ```
 
