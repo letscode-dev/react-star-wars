@@ -82,8 +82,8 @@ npm run deploy-storybook # storybook deploy
 ### Redux
 - Базовая структура react-redux-приложения
 - Хуки `useDispatch`, `useSelector`
-- Создание асинхронных action с библиотекой `redux-thunk`
 - Redux Middleware
+- Создание асинхронных action с библиотекой `redux-thunk`
 - Отслеживание состояния store с `redux-devtools-extension`
 
 ### Общее
