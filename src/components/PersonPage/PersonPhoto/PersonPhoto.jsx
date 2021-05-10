@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { setPersonToFavorite, removePersonFromFavorites } from '@store/actions';
 
 import iconFavorite from './img/favorite.svg';
-import iconFavoriteFull from './img/favorite-full.svg';
+import iconFavoriteFill from './img/favorite-fill.svg';
 
 import styles from './PersonPhoto.module.css';
 
@@ -37,7 +37,7 @@ const PersonPhoto = ({
             <div className={styles.container}>
                 <img className={styles.photo} src={personPhoto} alt={personName} />
                 <img
-                    src={personFavorite ? iconFavoriteFull : iconFavorite}
+                    src={personFavorite ? iconFavoriteFill : iconFavorite}
                     onClick={dispatchFavoritePeople}
                     className={styles.favorite}
                     alt="Add to favorite"
