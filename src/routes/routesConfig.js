@@ -1,11 +1,8 @@
 import HomePage from '@containers/HomePage';
 import PeoplePage from '@containers/PeoplePage';
 import PersonPage from '@containers/PersonPage';
-import SearchPage from '@containers/SearchPage';
-import FavoritesPage from '@containers/FavoritesPage';
 import NotFoundPage from '@containers/NotFoundPage';
-
-import ErrorMessage from '@components/ErrorMessage';
+import FavoritesPage from '@containers/FavoritesPage';
 
 const routesConfig = [
     {
@@ -20,22 +17,13 @@ const routesConfig = [
     },
     {
         path: '/people/:id',
-        component: PersonPage
-    },
-    {
-        path: '/search',
         exact: true,
-        component: SearchPage
+        component: PersonPage
     },
     {
         path: '/favorites',
         exact: true,
         component: FavoritesPage
-    },
-    {
-        path: '/fail',
-        exact: true,
-        component: ErrorMessage
     },
     {
         path: '/not-found',
@@ -46,7 +34,7 @@ const routesConfig = [
         path: '*',
         exact: false,
         component: NotFoundPage
-    },
+    }
 ];
 
 export default routesConfig;

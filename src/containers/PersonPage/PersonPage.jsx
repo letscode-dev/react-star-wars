@@ -4,15 +4,15 @@ import { useSelector } from 'react-redux';
 
 import { withErrorApi } from '@hoc-helpers/withErrorApi';
 
-import PersonPhoto from '@components/PersonPage/PersonPhoto';
 import PersonInfo from '@components/PersonPage/PersonInfo';
+import PersonPhoto from '@components/PersonPage/PersonPhoto';
 import PersonLinkBack from '@components/PersonPage/PersonLinkBack';
 
 import UiLoading from '@ui/UiLoading';
 
 import { getApiResource } from '@utils/network';
 import { getPeopleImage } from '@services/getPeopleData';
-import { API_PERSON } from '@constants/api';
+import { API_PERSON } from '@constants/api'
 
 import styles from './PersonPage.module.css';
 
@@ -26,16 +26,16 @@ const PersonPage = ({ match, setErrorApi }) => {
     const [personFilms, setPersonFilms] = useState(null);
     const [personFavorite, setPersonFavorite] = useState(false);
 
-    const storeData = useSelector(state => state.favoriteReducer);
+    const storeDate = useSelector(state => state.favoriteReducer);
 
     useEffect(() => {
         (async () => {
             const id = match.params.id;
-
-            storeData[id] ? setPersonFavorite(true) : setPersonFavorite(false);
-            setPersonId(id);
-
             const res = await getApiResource(`${API_PERSON}/${id}/`);
+
+            storeDate[id] ? setPersonFavorite(true) : setPersonFavorite(false);
+
+            setPersonId(id);
 
             if (res) {
                 setPersonInfo([
@@ -47,9 +47,10 @@ const PersonPage = ({ match, setErrorApi }) => {
                     { title: 'Birth Year', data: res.birth_year },
                     { title: 'Gender', data: res.gender },
                 ]);
+
                 setPersonName(res.name);
                 setPersonPhoto(getPeopleImage(id));
-    
+
                 res.films.length && setPersonFilms(res.films);
 
                 setErrorApi(false);
@@ -57,7 +58,7 @@ const PersonPage = ({ match, setErrorApi }) => {
                 setErrorApi(true);
             }
         })();
-    }, [match]);
+    }, []);
 
     return (
         <>
@@ -65,8 +66,8 @@ const PersonPage = ({ match, setErrorApi }) => {
 
             <div className={styles.wrapper}>
                 <span className={styles.person__name}>{personName}</span>
+                
                 <div className={styles.container}>
-
                     <PersonPhoto
                         personId={personId}
                         personPhoto={personPhoto}
@@ -76,6 +77,7 @@ const PersonPage = ({ match, setErrorApi }) => {
                     />
 
                     {personInfo && <PersonInfo personInfo={personInfo} />}
+
                     {personFilms && (
                         <Suspense fallback={<UiLoading />}>
                             <PersonFilms personFilms={personFilms} />
@@ -89,7 +91,7 @@ const PersonPage = ({ match, setErrorApi }) => {
 
 PersonPage.propTypes = {
     match: PropTypes.object,
-	setErrorApi: PropTypes.func,
+    setErrorApi: PropTypes.func,
 }
 
 export default withErrorApi(PersonPage);

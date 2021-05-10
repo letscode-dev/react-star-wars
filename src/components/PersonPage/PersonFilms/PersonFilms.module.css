@@ -13,7 +13,7 @@
     margin-bottom: var(--margin-list);
     color: var(--color-white);
 }
-.item__episode {
+.item__episide {
     padding: var(--spacing-ultrasmall);
     border-radius: var(--border-radius-small);
     background-color: var(--color-red);
