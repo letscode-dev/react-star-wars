@@ -134,6 +134,7 @@ npm run deploy-storybook # storybook deploy
 - ESLint + Prettier
 - Тесты: `Jest`, `Enzyme`
 - Тесты `Cypress`
+- Публикация NPM-пакета для UiKit
 - Проверка производительности в Lighthouse (Google Chrome)
 - Авторизация
 - `Material UI`, стилизация через css-in-js
@@ -142,4 +143,4 @@ npm run deploy-storybook # storybook deploy
 - Роутер. Анимация при переходе между страницами
 - `Redux Thunk`
 - `React Hook Form` для обработки данных форм
-- Публикация NPM-пакета
+
