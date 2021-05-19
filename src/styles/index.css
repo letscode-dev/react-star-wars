@@ -12,13 +12,6 @@ VARIABLES
     --color-violet:      #ae72c2;
     --color-red:         #f75d83;
 
-    --color-jedi:          #29e52d;
-    --color-sith:          #d82228;
-    --color-neitral:       #ffff00;
-    --color-jedi-shadow:   rgba(41, 229, 45, .4);
-    --color-sith-shadow:   rgba(216, 34, 40, .4);
-    --color-neitral-shadow:rgba(224, 224, 81, 0.4);
-
     --spacing-ultrasmall: 5px;
     --spacing-small:      10px;
     --spacing-medium:     20px;
