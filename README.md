@@ -134,6 +134,7 @@ npm run deploy-storybook # storybook deploy
 - ESLint + Prettier
 - Тесты: `Jest`, `Enzyme`
 - Тесты `Cypress`
+- Проверка производительности в Lighthouse (Google Chrome)
 - Авторизация
 - `Material UI`, стилизация через css-in-js
 - Добавить шрифты
