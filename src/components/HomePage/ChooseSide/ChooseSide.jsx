@@ -10,49 +10,63 @@ import styles from './ChooseSide.module.css';
 
 const ChooseSideItem = ({
     classes,
-    onClick,
+    theme,
     text,
     img,
-}) => (
-    <div
-        className={cn(styles.item, classes)}
-        onClick={onClick}
-    >
-        <div className={styles.item__header}>{text}</div>
-        <img className={styles.item__img} src={img} alt={text} />
-    </div>
-)
+}) => {
+    const isTheme = useTheme();
+
+    return (
+        <div
+            className={cn(styles.item, classes)}
+            onClick={() => isTheme.change(theme)}
+        >
+            <div className={styles.item__header}>{text}</div>
+            <img className={styles.item__img} src={img} alt={text} />
+        </div>
+    )
+}
 
 ChooseSideItem.propTypes = {
     classes: PropTypes.string,
-    onClick: PropTypes.func,
+    theme: PropTypes.string,
     text: PropTypes.string,
     img: PropTypes.string,
 }
 
 const ChooseSide = () => {
-    const isTheme = useTheme();
+    const elements = [
+        {
+            theme: THEME_LIGHT,
+            text: "Light Side",
+            img: imgLightSide,
+            classes: styles.item__light,
+        },
+        {
+            theme: THEME_DARK,
+            text: "Dark Side",
+            img: imgDarkSide,
+            classes: styles.item__dark,
+        },
+        {
+            theme: THEME_NEITRAL,
+            text: "I'm Han Solo",
+            img: imgFalcon,
+            classes: styles.item__neitral,
+        },
+    ];
 
     return (
         <div className={styles.container}>
-            <ChooseSideItem
-                classes={styles.item__light}
-                onClick={() => isTheme.change(THEME_LIGHT)}
-                text="Light Side"
-                img={imgLightSide}
-            />
-            <ChooseSideItem
-                classes={styles.item__dark}
-                onClick={() => isTheme.change(THEME_DARK)}
-                text="Dark Side"
-                img={imgDarkSide}
-            />
-            <ChooseSideItem
-                classes={styles.item__neitral}
-                onClick={() => isTheme.change(THEME_NEITRAL)}
-                text="I'm Han Solo"
-                img={imgFalcon}
-            />
+            {elements.map(({ theme, text, img, classes }, index) => (
+                <ChooseSideItem
+                    key={index}
+                    theme={theme}
+                    text={text}
+                    img={img}
+                    classes={classes}
+                />
+            ))}
         </div>
     )
 }

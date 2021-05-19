@@ -10,6 +10,6 @@
     width: 30px;
     height: 30px;
     margin-right: var(--spacing-small);
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
 }
