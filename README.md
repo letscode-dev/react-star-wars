@@ -130,7 +130,7 @@ npm run deploy-storybook # storybook deploy
 
 ---
 
-## 🐨 TODO: Тестирование и перформанс
+### 🐨 TODO: Тестирование и перформанс
 - ESLint + Prettier
 - Тесты: `Jest`, `Enzyme`
 - Тесты `Cypress`
