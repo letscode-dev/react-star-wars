@@ -10,7 +10,7 @@ const UiInput = ({
     value,
     handleInputChange,
     placeholder,
-    classes
+    classes,
 }) => (
     <div className={cn(styles.wrapper__input, classes)}>
         <input
@@ -37,21 +37,3 @@ UiInput.propTypes = {
 }
 
 export default UiInput;
-
-// import { useState } from 'react';
-// import UiInput from '@ui/UiInput';
-
-// const App = () => {
-//     const [value, setValue] = useState('');
-
-//     const handleInputChange = value => {
-//         setValue(value);
-//     }
-
-//     return (
-//         <UiInput
-//             value={value}
-//             handleInputChange={handleInputChange}
-//         />
-//     )
-// }

@@ -5,7 +5,6 @@ import store from '@store/store';
 
 import ThemeProvider from '@context/ThemeProvider';
 import App from '@containers/App';
-
 import '@styles/index.css';
 
 ReactDOM.render(

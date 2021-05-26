@@ -4,7 +4,7 @@ export const getLocalStorage = key => {
     if (data !== null) {
         return JSON.parse(data);
     }
-
+    
     return {};
 }
 

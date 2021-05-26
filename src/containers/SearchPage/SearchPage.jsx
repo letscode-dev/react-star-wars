@@ -1,14 +1,14 @@
 import PropTypes from 'prop-types';
-import { useState, useEffect, useCallback } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 import { debounce } from 'lodash';
 
 import { withErrorApi } from '@hoc-helpers/withErrorApi';
+import { getApiResource } from '@utils/network';
+import { API_SEARCH } from '@constants/api';
+import { getPeopleId, getPeopleImage } from '@services/getPeopleData';
+
 import UiInput from '@ui/UiInput';
 import SearchPageInfo from '@components/SearchPage/SearchPageInfo';
-
-import { getApiResource } from '@utils/network';
-import { getPeopleImage, getPeopleId } from '@services/getPeopleData';
-import { API_SEARCH } from '@constants/api';
 
 import styles from './SearchPage.module.css';
 
@@ -20,23 +20,23 @@ const SearchPage = ({ setErrorApi }) => {
         const res = await getApiResource(API_SEARCH+param);
 
         if (res) {
-            const peopleList = res.results.map(({ name, url}) => {
+            const peopleList = res.results.map(({ name, url }) => {
                 const id = getPeopleId(url);
                 const img = getPeopleImage(id);
-    
+
                 return {
                     id,
                     name,
                     img,
                 }
             });
-    
+
             setPeople(peopleList);
             setErrorApi(false);
         } else {
             setErrorApi(true);
         }
-    };
+    }
 
     useEffect(() => {
         getResponse('');
@@ -59,7 +59,7 @@ const SearchPage = ({ setErrorApi }) => {
             <UiInput
                 value={inputSearchValue}
                 handleInputChange={handleInputChange}
-                placeholder="Input character's name"
+                placeholder="Input characters's name"
                 classes={styles.input__search}
             />
 
@@ -69,7 +69,7 @@ const SearchPage = ({ setErrorApi }) => {
 }
 
 SearchPage.propTypes = {
-	setErrorApi: PropTypes.func,
+    setErrorApi: PropTypes.func
 }
 
 export default withErrorApi(SearchPage);
