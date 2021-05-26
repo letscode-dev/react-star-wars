@@ -42,7 +42,10 @@ const SearchPage = ({ setErrorApi }) => {
         getResponse('');
     }, []);
 
-    const debouncedGetResponse = useCallback(debounce(value => getResponse(value), 300), []);
+    const debouncedGetResponse = useCallback(
+        debounce(value => getResponse(value), 300),
+        []
+    );
 
     const handleInputChange = value => {
         setInputSearchValue(value);
