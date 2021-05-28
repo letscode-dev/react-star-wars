@@ -1,9 +1,8 @@
 import PropTypes from 'prop-types';
-import { useEffect, useRef } from 'react';
 import cn from 'classnames';
 
-import '../index.css';
 import styles from './UiVideo.module.css';
+import { useEffect, useRef } from 'react';
 
 const UiVideo = ({
     src,
@@ -21,8 +20,8 @@ const UiVideo = ({
             loop
             autoPlay
             muted
-            ref={videoRef}
             className={cn(styles.video, classes)}
+            ref={videoRef}
         >
             <source src={src} />
         </video>
@@ -36,16 +35,3 @@ UiVideo.propTypes = {
 }
 
 export default UiVideo;
-
-
-// import UiVideo from '@ui/UiVideo';
-// import video from './background-star.mp4';
-
-// const App = () => {
-//     return (
-//         <UiVideo
-//             src={video}
-//             playbackRate={0.5}
-//         />
-//     )
-// }

@@ -1,12 +1,11 @@
-import PropTypes from 'prop-types';
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 import cn from 'classnames';
 
 import loaderBlack from './img/loader-black.svg';
 import loaderWhite from './img/loader-white.svg';
 import loaderBlue from './img/loader-blue.svg';
 
-import '../index.css';
 import styles from './UiLoading.module.css';
 
 const UiLoading = ({
@@ -41,11 +40,3 @@ UiLoading.propTypes = {
 }
 
 export default UiLoading;
-
-// import UiLoading from '@ui/UiLoading';
-
-// const App = () => {
-//     return (
-//         <UiLoading />
-//     )
-// }

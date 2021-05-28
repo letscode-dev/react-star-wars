@@ -29,14 +29,15 @@
     width: var(--clear-width);
     height: calc(100% - var(--border)*2);
     padding: 10px;
-    border: none;
-    outline: none;
     object-fit: contain;
     object-position: center center;
     transition: .5s;
     opacity: .4;
     cursor: pointer;
+    border: none;
+    outline: none;
 }
+
 .clear__disabled {
     opacity: .2;
 }

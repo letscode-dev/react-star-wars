@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { changeCssVariables } from '@services/changeCssVariables';
 
 export const THEME_LIGHT = 'light';
@@ -16,14 +16,14 @@ export const ThemeProvider = ({ children, ...props }) => {
     }
 
     return (
-		<ThemeContext.Provider
+        <ThemeContext.Provider
             value={{
                 theme,
                 change
             }}
-			{...props}
-		>
-            { children}
+            {...props}
+        >
+            {children}    
         </ThemeContext.Provider>
     )
 }

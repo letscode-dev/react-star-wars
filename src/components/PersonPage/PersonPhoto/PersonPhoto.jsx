@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
 
-import { setPersonToFavorite, removePersonFromFavorites } from '@store/actions';
+import { setPersonToFavorite, removePersonFromFavorite } from '@store/actions';
 
 import iconFavorite from './img/favorite.svg';
 import iconFavoriteFill from './img/favorite-fill.svg';
@@ -19,14 +19,14 @@ const PersonPhoto = ({
 
     const dispatchFavoritePeople = () => {
         if (personFavorite) {
-            dispatch(removePersonFromFavorites(personId));
+            dispatch(removePersonFromFavorite(personId));
             setPersonFavorite(false);
         } else {
             dispatch(setPersonToFavorite({
                 [personId]: {
                     name: personName,
                     img: personPhoto
-                }
+                },
             }));
             setPersonFavorite(true);
         }
