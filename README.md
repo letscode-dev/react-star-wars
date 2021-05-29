@@ -132,7 +132,7 @@ npm run deploy-storybook # storybook deploy
 
 ### 🐨 TODO
 #### Тестирование и перформанс
-- ESLint + Prettier
+- `ESLint` + `Prettier`
 - Тесты: `Jest`, `Enzyme`
 - Тесты `Cypress`
 - Проверка производительности в Lighthouse (Google Chrome)
