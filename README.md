@@ -11,7 +11,7 @@
 
 ## 🐶 Available Scripts and Commands
 
-```bash
+```shell
 # Install
 npm i                    # install dependencies
 ```
