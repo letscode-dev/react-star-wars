@@ -91,9 +91,7 @@ npm run deploy-storybook # storybook deploy
 - Деплой приложения на GitHub Pages (библиотека `gh-pages`)
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
-- Проверка производительности в `Lighthouse`
 - `Visual Studio Code`. Сниппеты и плагины
-- .bat-файлы для запуска скриптов
 
 ### JavaScript
 - Методы работы с массивами: `map`, `filter`, `forEach`
@@ -135,12 +133,12 @@ npm run deploy-storybook # storybook deploy
 - `ESLint` + `Prettier`
 - Тесты: `Jest`, `Enzyme`
 - Тесты `Cypress`
-- Проверка производительности в Lighthouse (Google Chrome)
+- Проверка производительности в `Lighthouse` (Google Chrome)
 
 #### Технологии
-- Регистрация через  Firebase
+- `TypeScript`
+- `Firebase` регистрация  
 - `Material UI`, стилизация через css-in-js
-- Публикация NPM-пакета для UiKit
 - `Redux Thunk`
 - `React Hook Form` для обработки данных форм
 
@@ -148,3 +146,5 @@ npm run deploy-storybook # storybook deploy
 - Перегруппировка компонентов Header при адаптиве
 - Роутер. Анимация при переходе между страницами
 - Добавить шрифты
+- Публикация NPM-пакета для UiKit
+- .bat-файлы для запуска скриптов
