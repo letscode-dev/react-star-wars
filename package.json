@@ -1,6 +1,6 @@
 {
 	"name": "star-wars",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://dev-pandaren.github.io/react-star-wars/",
 	"private": true,
 	"dependencies": {
