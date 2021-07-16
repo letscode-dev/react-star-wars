@@ -1,6 +1,6 @@
 import {
     SWAPI_PARAM_PAGE,
-    HTTP, SWAPI_ROOT, SWAPI_PEOPLE,
+    HTTP, HTTPS, SWAPI_ROOT, SWAPI_PEOPLE,
     URL_IMG_PERSON, GUIDE_IMG_EXTESION
 } from '@constants/api';
 
@@ -15,11 +15,24 @@ export const getPeoplePageId = url => {
 }
 
 //-----------------------------------------------
+// Проверка протокола: HTTP или HTTPS
+//-----------------------------------------------
+const checkProtocol = url => {
+    if (url.indexOf(HTTPS) !== -1) {
+        return HTTPS;
+    }
+
+    return HTTP;
+}
+
+//-----------------------------------------------
 // Получить ID персонажа по URL
 //-----------------------------------------------
 const getId = (url, category) => {
+    const protocol = checkProtocol(url);
+
     const id = url
-        .replace(HTTP+SWAPI_ROOT+category, '')
+        .replace(protocol+SWAPI_ROOT+category, '')
         .replace(/\//g, '')
 
     return id;
