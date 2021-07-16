@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-star-wars/static/css/main.8175f37f.chunk.css",
-    "main.js": "/react-star-wars/static/js/main.88a74d00.chunk.js",
-    "main.js.map": "/react-star-wars/static/js/main.88a74d00.chunk.js.map",
-    "runtime-main.js": "/react-star-wars/static/js/runtime-main.aa1dfacb.js",
-    "runtime-main.js.map": "/react-star-wars/static/js/runtime-main.aa1dfacb.js.map",
-    "static/js/2.fd99cc10.chunk.js": "/react-star-wars/static/js/2.fd99cc10.chunk.js",
-    "static/js/2.fd99cc10.chunk.js.map": "/react-star-wars/static/js/2.fd99cc10.chunk.js.map",
-    "static/css/3.25f63933.chunk.css": "/react-star-wars/static/css/3.25f63933.chunk.css",
-    "static/js/3.b192b242.chunk.js": "/react-star-wars/static/js/3.b192b242.chunk.js",
-    "static/js/3.b192b242.chunk.js.map": "/react-star-wars/static/js/3.b192b242.chunk.js.map",
+    "main.css": "/react-star-wars/static/css/main.4ef5a36b.chunk.css",
+    "main.js": "/react-star-wars/static/js/main.c5b94c33.chunk.js",
+    "main.js.map": "/react-star-wars/static/js/main.c5b94c33.chunk.js.map",
+    "runtime-main.js": "/react-star-wars/static/js/runtime-main.d4f21d53.js",
+    "runtime-main.js.map": "/react-star-wars/static/js/runtime-main.d4f21d53.js.map",
+    "static/js/2.9775c919.chunk.js": "/react-star-wars/static/js/2.9775c919.chunk.js",
+    "static/js/2.9775c919.chunk.js.map": "/react-star-wars/static/js/2.9775c919.chunk.js.map",
+    "static/css/3.47b4a481.chunk.css": "/react-star-wars/static/css/3.47b4a481.chunk.css",
+    "static/js/3.f4baf296.chunk.js": "/react-star-wars/static/js/3.f4baf296.chunk.js",
+    "static/js/3.f4baf296.chunk.js.map": "/react-star-wars/static/js/3.f4baf296.chunk.js.map",
     "index.html": "/react-star-wars/index.html",
-    "static/css/3.25f63933.chunk.css.map": "/react-star-wars/static/css/3.25f63933.chunk.css.map",
-    "static/css/main.8175f37f.chunk.css.map": "/react-star-wars/static/css/main.8175f37f.chunk.css.map",
-    "static/js/2.fd99cc10.chunk.js.LICENSE.txt": "/react-star-wars/static/js/2.fd99cc10.chunk.js.LICENSE.txt",
+    "static/css/3.47b4a481.chunk.css.map": "/react-star-wars/static/css/3.47b4a481.chunk.css.map",
+    "static/css/main.4ef5a36b.chunk.css.map": "/react-star-wars/static/css/main.4ef5a36b.chunk.css.map",
+    "static/js/2.9775c919.chunk.js.LICENSE.txt": "/react-star-wars/static/js/2.9775c919.chunk.js.LICENSE.txt",
     "static/media/back.3a33cbdb.svg": "/react-star-wars/static/media/back.3a33cbdb.svg",
     "static/media/index.css": "/react-star-wars/static/media/bg.29b25be3.jpg",
     "static/media/bookmark.b17a5944.svg": "/react-star-wars/static/media/bookmark.b17a5944.svg",
@@ -21,7 +21,7 @@
     "static/media/dark-side.e0f8cab7.jpg": "/react-star-wars/static/media/dark-side.e0f8cab7.jpg",
     "static/media/droid.e59cd9ff.svg": "/react-star-wars/static/media/droid.e59cd9ff.svg",
     "static/media/falcon.c1d0a8d1.jpg": "/react-star-wars/static/media/falcon.c1d0a8d1.jpg",
-    "static/media/favorite-full.d5b58d62.svg": "/react-star-wars/static/media/favorite-full.d5b58d62.svg",
+    "static/media/favorite-fill.d5b58d62.svg": "/react-star-wars/static/media/favorite-fill.d5b58d62.svg",
     "static/media/favorite.566cdda1.svg": "/react-star-wars/static/media/favorite.566cdda1.svg",
     "static/media/han-solo.db435084.mp4": "/react-star-wars/static/media/han-solo.db435084.mp4",
     "static/media/light-side.eebc5217.jpg": "/react-star-wars/static/media/light-side.eebc5217.jpg",
@@ -33,9 +33,9 @@
     "static/media/space-station.7a027c6e.svg": "/react-star-wars/static/media/space-station.7a027c6e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.aa1dfacb.js",
-    "static/js/2.fd99cc10.chunk.js",
-    "static/css/main.8175f37f.chunk.css",
-    "static/js/main.88a74d00.chunk.js"
+    "static/js/runtime-main.d4f21d53.js",
+    "static/js/2.9775c919.chunk.js",
+    "static/css/main.4ef5a36b.chunk.css",
+    "static/js/main.c5b94c33.chunk.js"
   ]
 }
