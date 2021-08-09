@@ -1,7 +1,7 @@
 import {
     SWAPI_PARAM_PAGE,
     HTTP, HTTPS, SWAPI_ROOT, SWAPI_PEOPLE,
-    URL_IMG_PERSON, GUIDE_IMG_EXTESION
+    URL_IMG_PERSON, GUIDE_IMG_EXTENSION
 } from '@constants/api';
 
 //-----------------------------------------------
@@ -43,4 +43,4 @@ export const getPeopleId = url => getId(url, SWAPI_PEOPLE);
 //-----------------------------------------------
 // Получить изображение для персонажа
 //-----------------------------------------------
-export const getPeopleImage = id => `${URL_IMG_PERSON}/${id+GUIDE_IMG_EXTESION}`;
+export const getPeopleImage = id => `${URL_IMG_PERSON}/${id+GUIDE_IMG_EXTENSION}`;
