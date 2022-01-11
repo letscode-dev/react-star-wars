@@ -45,6 +45,11 @@ npm run deploy-storybook # storybook deploy
 
 ---
 
+## 🐗 Lighthouse Metrics Performance
+<img src="https://github.com/dev-pandaren/react-star-wars/blob/__temp__/_temp/readme/lighthouse.png?raw=true" width="500px" />
+
+---
+
 ## 🐼 Рассмотренные темы
 
 ### React.js
