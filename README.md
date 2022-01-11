@@ -43,13 +43,6 @@ npm run deploy-storybook # storybook deploy
 - https://swapi.py4e.com (запасное API - если основное не работает)
 - https://starwars-visualguide.com (изображения для API)
 
-
----
-
-
-## 🐗 Lighthouse Metrics Performance
-<img src="src/_temp/readme/lighthouse.png" width="500px" />
-
 ---
 
 ## 🐼 Рассмотренные темы
