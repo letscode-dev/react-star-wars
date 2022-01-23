@@ -13,4 +13,4 @@
 - `match` заменен на `useParams()`
 
 ### [[v0.2.1] [2022-01-24]](https://github.com/dev-pandaren/react-star-wars/commit/ee58140723211f2052d5b73b8cb74474ac5c4315)
-- Рефакторинг setErrorApi()
+- Рефакторинг `setErrorApi()`
