@@ -1,14 +1,14 @@
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import iconBack from './img/back.svg';
 
 import styles from './PersonLinkBack.module.css';
 
 const PersonLinkBack = () => {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     const handleGoBack = e => {
         e.preventDefault();
-        history.goBack();
+        navigate(-1);
     }
 
     return (

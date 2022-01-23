@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useState, useEffect, Suspense } from 'react';
+import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import { withErrorApi } from '@hoc-helpers/withErrorApi';
@@ -18,7 +19,7 @@ import styles from './PersonPage.module.css';
 
 const PersonFilms = React.lazy(() => import('@components/PersonPage/PersonFilms'));
 
-const PersonPage = ({ match, setErrorApi }) => {
+const PersonPage = ({ setErrorApi }) => {
     const [personId, setPersonId] = useState(null);
     const [personInfo, setPersonInfo] = useState(null);
     const [personName, setPersonName] = useState(null);
@@ -28,10 +29,10 @@ const PersonPage = ({ match, setErrorApi }) => {
 
     const storeData = useSelector(state => state.favoriteReducer);
 
+    const { id } = useParams();
+
     useEffect(() => {
         (async () => {
-            const id = match.params.id;
-
             storeData[id] ? setPersonFavorite(true) : setPersonFavorite(false);
             setPersonId(id);
 
@@ -57,7 +58,7 @@ const PersonPage = ({ match, setErrorApi }) => {
                 setErrorApi(true);
             }
         })();
-    }, [match]);
+    }, []);
 
     return (
         <>
@@ -88,7 +89,6 @@ const PersonPage = ({ match, setErrorApi }) => {
 }
 
 PersonPage.propTypes = {
-    match: PropTypes.object,
 	setErrorApi: PropTypes.func,
 }
 

@@ -10,8 +10,6 @@ import { getApiResource, changeHTTP } from '@utils/network';
 import { getPeopleImage, getPeopleId, getPeoplePageId } from '@services/getPeopleData';
 import { API_PEOPLE } from '@constants/api';
 
-// import styles from './PeoplePage.module.css';
-
 const PeoplePage = ({ setErrorApi }) => {
     const [people, setPeople] = useState(null);
     const [prevPage, setPrevPage] = useState(null);

@@ -146,3 +146,16 @@ npm run deploy-storybook # storybook deploy
 - Добавить шрифты
 - Публикация NPM-пакета для UiKit
 - .bat-файлы для запуска скриптов
+
+
+---
+
+### NPM
+
+```bash
+npm i --save classnames lodash prop-types react react-dom react-redux react-router react-router-dom react-scripts redux redux-devtools-extension redux-thunk
+```
+
+```bash
+npm i --save-dev @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/node-logger @storybook/preset-create-react-app @storybook/react @storybook/storybook-deployer gh-pages react-app-rewire-alias react-app-rewired
+```

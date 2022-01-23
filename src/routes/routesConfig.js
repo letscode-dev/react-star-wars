@@ -10,42 +10,35 @@ import ErrorMessage from '@components/ErrorMessage';
 const routesConfig = [
     {
         path: '/',
-        exact: true,
-        component: HomePage
+        element: <HomePage />
     },
     {
         path: '/people',
-        exact: true,
-        component: PeoplePage
+        element: <PeoplePage />
     },
     {
         path: '/people/:id',
-        component: PersonPage
+        element: <PersonPage />
     },
     {
         path: '/search',
-        exact: true,
-        component: SearchPage
+        element: <SearchPage />
     },
     {
         path: '/favorites',
-        exact: true,
-        component: FavoritesPage
+        element: <FavoritesPage />
     },
     {
         path: '/fail',
-        exact: true,
-        component: ErrorMessage
+        element: <ErrorMessage />
     },
     {
         path: '/not-found',
-        exact: true,
-        component: NotFoundPage
+        element: <NotFoundPage />
     },
     {
         path: '*',
-        exact: false,
-        component: NotFoundPage
+        element: <NotFoundPage />
     },
 ];
 
