@@ -38,10 +38,9 @@ const PeoplePage = ({ setErrorApi }) => {
             setNextPage(changeHTTP(res.next));
             setPrevPage(changeHTTP(res.previous));
             setCounterPage(getPeoplePageId(url));
-            setErrorApi(false);
-        } else {
-            setErrorApi(true);
         }
+
+        setErrorApi(!res);
     };
 
     useEffect(() => {

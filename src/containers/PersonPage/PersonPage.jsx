@@ -52,11 +52,9 @@ const PersonPage = ({ setErrorApi }) => {
                 setPersonPhoto(getPeopleImage(id));
     
                 res.films.length && setPersonFilms(res.films);
-
-                setErrorApi(false);
-            } else {
-                setErrorApi(true);
             }
+
+            setErrorApi(!res);
         })();
     }, []);
 

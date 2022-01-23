@@ -32,10 +32,9 @@ const SearchPage = ({ setErrorApi }) => {
             });
     
             setPeople(peopleList);
-            setErrorApi(false);
-        } else {
-            setErrorApi(true);
         }
+
+        setErrorApi(!res);
     };
 
     useEffect(() => {
