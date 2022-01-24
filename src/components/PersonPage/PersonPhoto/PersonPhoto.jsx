@@ -20,7 +20,6 @@ const PersonPhoto = ({
     const dispatchFavoritePeople = () => {
         if (personFavorite) {
             dispatch(removePersonFromFavorites(personId));
-            setPersonFavorite(false);
         } else {
             dispatch(setPersonToFavorite({
                 [personId]: {
@@ -28,8 +27,9 @@ const PersonPhoto = ({
                     img: personPhoto
                 }
             }));
-            setPersonFavorite(true);
         }
+
+        setPersonFavorite(!personFavorite);
     }
 
     return (
