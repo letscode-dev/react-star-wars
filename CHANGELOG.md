@@ -15,6 +15,6 @@
 ### [[v0.2.1] [2022-01-24]](https://github.com/dev-pandaren/react-star-wars/commit/ee58140723211f2052d5b73b8cb74474ac5c4315)
 - Рефакторинг `setErrorApi()`
 
-### [[v0.2.2] [2022-01-24]]()
+### [[v0.2.2] [2022-01-24]](https://github.com/dev-pandaren/react-star-wars/commit/5f7d36e624153fec3b1ecbf02a54f4e29cc8a473)
 - Удален второй аргумент у `slice()` - по умолчанию подставляется длина строки
 - Более компактная запись для `setPersonFavorite()`
