@@ -128,9 +128,10 @@ npm run deploy-storybook # storybook deploy
 
 ### 🐨 TODO
 
-#### TypeScript
-- Переписать на TypeScript
-- https://github.com/letscode-dev/react-star-wars/tree/typescript-part
+#### Добавить
+- TypeScript https://github.com/letscode-dev/react-star-wars/tree/typescript-part
+- Prettier
+- Eslint
 
 #### Тестирование и перформанс
 - `ESLint` + `Prettier`
@@ -151,7 +152,6 @@ npm run deploy-storybook # storybook deploy
 - Добавить шрифты
 - Публикация NPM-пакета для UiKit
 - .bat-файлы для запуска скриптов
-
 
 ---
 
