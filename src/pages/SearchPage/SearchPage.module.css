@@ -1,0 +1,8 @@
+.container {
+    margin: var(--spacing-large);
+}
+.input__search {
+    width: 300px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}

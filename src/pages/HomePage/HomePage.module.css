@@ -1,0 +1,6 @@
+.container {
+    margin: var(--spacing-large);
+}
+.text {
+    color: var(--color-white-opacity);
+}

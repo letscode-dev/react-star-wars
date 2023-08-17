@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.link {
+    margin: var(--spacing-small);
+}
+.button {
+    min-width: 150px;
+}

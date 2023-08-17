@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    width: 800px;
+    margin: var(--spacing-large);
+    border-radius: var(--border-radius);
+    background-color: var(--color-white-opacity);
+}
+.photo {
+    width: 250px;
+    margin: var(--spacing-medium);
+    border-radius: var(--border-radius);
+}
+.content {
+    padding: var(--spacing-medium);
+}
+.title {
+    color: var(--color-dark-gray);
+    margin-bottom: var(--spacing-medium);
+}
