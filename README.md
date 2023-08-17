@@ -127,6 +127,11 @@ npm run deploy-storybook # storybook deploy
 ---
 
 ### 🐨 TODO
+
+#### TypeScript
+- Переписать на TypeScript
+- https://github.com/letscode-dev/react-star-wars/tree/typescript-part
+
 #### Тестирование и перформанс
 - `ESLint` + `Prettier`
 - Тесты: `Jest`, `Enzyme`
