@@ -128,11 +128,6 @@ npm run deploy-storybook # storybook deploy
 
 ### 🐨 TODO
 
-#### Добавить
-- TypeScript https://github.com/letscode-dev/react-star-wars/tree/typescript-part
-- Prettier
-- Eslint
-
 #### Тестирование и перформанс
 - `ESLint` + `Prettier`
 - Тесты: `Jest`, `Enzyme`
@@ -140,7 +135,7 @@ npm run deploy-storybook # storybook deploy
 - Проверка производительности в `Lighthouse` (Google Chrome)
 
 #### Технологии
-- `TypeScript`
+- `TypeScript` https://github.com/letscode-dev/react-star-wars/tree/typescript-part
 - `Firebase` регистрация  
 - `Material UI`, стилизация через css-in-js
 - `Redux Thunk`
