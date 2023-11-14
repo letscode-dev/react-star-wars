@@ -1,9 +1,9 @@
 # 🪐 Star Wars Application
 
 ## 🐧 Links
-- `Project` https://dev-pandaren.github.io/react-star-wars
-- `Repository` https://github.com/dev-pandaren/react-star-wars
-- `StoryBook` https://dev-pandaren.github.io/react-star-wars/storybook
+- `Project` https://letscode-dev.github.io/react-star-wars
+- `Repository` https://github.com/letscode-dev/react-star-wars
+- `StoryBook` https://letscode-dev.github.io/react-star-wars/storybook
 - `YouTube Playlist` https://www.youtube.com/playlist?list=PL7cTIfGFrdKkQAWKDu2NdFt5Cx38B-A3i
 - `Let's Code` https://letscode-dev.github.io/
 
