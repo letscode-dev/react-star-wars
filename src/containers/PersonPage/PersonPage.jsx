@@ -4,9 +4,11 @@ import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import { withErrorApi } from '@hoc-helpers/withErrorApi';
+import { useTheme, THEME_LIGHT, THEME_DARK, THEME_NEITRAL } from '@context/ThemeProvider';
 
 import PersonPhoto from '@components/PersonPage/PersonPhoto';
 import PersonInfo from '@components/PersonPage/PersonInfo';
+import PersonFilms from "@components/PersonPage/PersonFilms";
 import PersonLinkBack from '@components/PersonPage/PersonLinkBack';
 
 import UiLoading from '@ui/UiLoading';
@@ -17,8 +19,6 @@ import { API_PERSON } from '@constants/api';
 
 import styles from './PersonPage.module.css';
 
-const PersonFilms = React.lazy(() => import('@components/PersonPage/PersonFilms'));
-
 const PersonPage = ({ setErrorApi }) => {
     const [personId, setPersonId] = useState(null);
     const [personInfo, setPersonInfo] = useState(null);
@@ -26,6 +26,11 @@ const PersonPage = ({ setErrorApi }) => {
     const [personPhoto, setPersonPhoto] = useState(null);
     const [personFilms, setPersonFilms] = useState(null);
     const [personFavorite, setPersonFavorite] = useState(false);
+
+    const [isLoading, setIsLoading] = useState(true);
+
+    const [colorLoader, setColorLoader] = useState('blue');
+    const isTheme = useTheme();
 
     const storeData = useSelector(state => state.favoriteReducer);
 
@@ -55,8 +60,19 @@ const PersonPage = ({ setErrorApi }) => {
             }
 
             setErrorApi(!res);
+
+            setIsLoading(false);
         })();
     }, []);
+
+    useEffect(() => {
+        switch (isTheme.theme) {
+            case THEME_LIGHT: setColorLoader('black'); break;
+            case THEME_DARK: setColorLoader('white'); break;
+            case THEME_NEITRAL: setColorLoader('blue'); break;
+            default: setColorLoader('blue');
+        }
+    }, [isTheme]);
 
     return (
         <>
@@ -75,11 +91,10 @@ const PersonPage = ({ setErrorApi }) => {
                     />
 
                     {personInfo && <PersonInfo personInfo={personInfo} />}
-                    {personFilms && (
-                        <Suspense fallback={<UiLoading />}>
-                            <PersonFilms personFilms={personFilms} />
-                        </Suspense>
-                    )}
+
+                    {isLoading && <UiLoading theme={colorLoader} />}
+                    {personFilms && <PersonFilms personFilms={personFilms} />}
+                    
                 </div>
             </div>
         </>
