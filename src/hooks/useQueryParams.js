@@ -1,6 +1,6 @@
-import { useLocation } from 'react-router-dom';
+import { useSearchParams } from "react-router-dom";
 
-// Синтаксический анализ строки запроса
 export const useQueryParams = () => {
-    return new URLSearchParams(useLocation().search);
-}
+  const [searchParams] = useSearchParams();
+  return searchParams;
+};
