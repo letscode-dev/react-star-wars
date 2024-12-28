@@ -1,7 +1,7 @@
 # CHANGELOG
 
 > [!TIP]  
-> Text Tip: [[v1.1] [2021-07-16]](https://github.com/dev-pandaren/react-star-wars/commit/6d25325918058290dca92822e1df30012736a876)
+> [Commit](https://github.com/dev-pandaren/react-star-wars/commit/6d25325918058290dca92822e1df30012736a876)
 
 
 ## VERSION 1.x
