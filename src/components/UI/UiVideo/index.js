@@ -1,1 +1,1 @@
-export { default } from './UiVideo';
+export { default } from "./UiVideo";

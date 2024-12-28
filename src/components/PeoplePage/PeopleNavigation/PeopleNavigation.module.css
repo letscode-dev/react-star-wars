@@ -1,7 +1,7 @@
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .buttons {
-    margin: var(--spacing-small);
+  margin: var(--spacing-small);
 }

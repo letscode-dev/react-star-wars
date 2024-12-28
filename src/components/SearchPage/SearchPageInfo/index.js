@@ -1,1 +1,1 @@
-export { default } from './SearchPageInfo';
+export { default } from "./SearchPageInfo";

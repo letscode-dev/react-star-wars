@@ -1,1 +1,1 @@
-export { default } from './UiInput';
+export { default } from "./UiInput";

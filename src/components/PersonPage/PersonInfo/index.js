@@ -1,1 +1,1 @@
-export { default } from './PersonInfo';
+export { default } from "./PersonInfo";

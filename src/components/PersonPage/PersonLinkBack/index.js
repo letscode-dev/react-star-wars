@@ -1,1 +1,1 @@
-export { default } from './PersonLinkBack';
+export { default } from "./PersonLinkBack";

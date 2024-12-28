@@ -1,6 +1,7 @@
 # 🪐 Star Wars Application
 
 ## 🐧 Links
+
 - `Project` https://letscode-dev.github.io/react-star-wars
 - `Repository` https://github.com/letscode-dev/react-star-wars
 - `StoryBook` https://letscode-dev.github.io/react-star-wars/storybook
@@ -39,6 +40,7 @@ npm run deploy-storybook # storybook deploy
 ---
 
 ## 🦄 API
+
 - https://swapi.dev (основное API)
 - https://swapi.py4e.com (запасное API - если основное не работает)
 - https://starwars-visualguide.com (изображения для API)
@@ -46,13 +48,15 @@ npm run deploy-storybook # storybook deploy
 ---
 
 ## 🐗 Lighthouse Metrics Performance
+
 <img src="https://github.com/dev-pandaren/react-star-wars/blob/__temp__/_temp/readme/lighthouse.png?raw=true" width="500px" />
 
 ---
 
 ## 🐼 Рассмотренные темы
 
-### React.js
+<details><summary>React.js</summary>
+
 - Разворачивание приложения с `create-react-app`
 - Состояние компонента (хук `useState`)
 - Жизненный цикл компонента (хук `useEffect`)
@@ -69,29 +73,37 @@ npm run deploy-storybook # storybook deploy
 - Списки и ключи, `Reconciliation Algorithm`
 - Отложенная загрузка компонентов `React.lazy()`
 - Библиотека `prop-types` для валидации props
+</details>
 
-### React Router
+<details><summary>React Router</summary>
+
 - Базовый роутинг
 - URL Parameters
 - Query Parameters
 - Обработка страницы 404 (Not Found)
 - Хуки `useLocation` и `useHistory`
+</details>
 
-### Redux
+<details><summary>Redux</summary>
+
 - Базовая структура react-redux-приложения
 - Хуки `useDispatch`, `useSelector`
 - Redux Middleware
 - Создание асинхронных action с библиотекой `redux-thunk`
 - Отслеживание состояния store с `redux-devtools-extension`
+</details>
 
-### Общее
+<details><summary>Общее</summary>
+
 - Задание Alias в React-приложении (библиотека `react-app-rewire-alias`)
 - Деплой приложения на GitHub Pages (библиотека `gh-pages`)
 - Создание Ui-Kit из визуальных компонентов и публикация в `@storybook`
 - Библиотека `lodash` с готовыми функциями
 - `Visual Studio Code`. Сниппеты и плагины
+</details>
 
-### JavaScript
+<details><summary>JavaScript</summary>
+
 - Методы работы с массивами: `map`, `filter`, `forEach`
 - Асинхронность: `Promise`, `Async Functions`
 - ES6-модули (import и export)
@@ -100,17 +112,23 @@ npm run deploy-storybook # storybook deploy
 - Тернарные операторы
 - Работа с Local Storage
 - Работа с API с использованием `Fetch`
+</details>
 
-### Вёрстка
+<details><summary>Вёрстка</summary>
+
 - CSS Custom Properties, изменение через JavaScript
 - CSS Filters
 - CSS Flexbox
 - CSS Multi Columns
 - Стилизация скроллбара
+</details>
 
 ---
 
-## 🐣 Порядок импортов
+## 🐣 Правила
+
+<details><summary>Порядок импортов</summary>
+
 - Библиотеки
 - Контекст
 - HOC
@@ -123,39 +141,4 @@ npm run deploy-storybook # storybook deploy
 - Утилиты
 - Константы
 - Стили
-
----
-
-### 🐨 TODO
-
-#### Тестирование и перформанс
-- `ESLint` + `Prettier`
-- Тесты: `Jest`, `Enzyme`
-- Тесты `Cypress`
-- Проверка производительности в `Lighthouse` (Google Chrome)
-
-#### Технологии
-- `TypeScript` https://github.com/letscode-dev/react-star-wars/tree/typescript-part
-- `Firebase` регистрация  
-- `Material UI`, стилизация через css-in-js
-- `Redux Thunk`
-- `React Hook Form` для обработки данных форм
-
-#### Функционал
-- Перегруппировка компонентов Header при адаптиве
-- Роутер. Анимация при переходе между страницами
-- Добавить шрифты
-- Публикация NPM-пакета для UiKit
-- .bat-файлы для запуска скриптов
-
----
-
-### NPM
-
-```bash
-npm i --save classnames lodash prop-types react react-dom react-redux react-router react-router-dom react-scripts redux redux-devtools-extension redux-thunk
-```
-
-```bash
-npm i --save-dev @storybook/addon-actions @storybook/addon-essentials @storybook/addon-links @storybook/node-logger @storybook/preset-create-react-app @storybook/react @storybook/storybook-deployer gh-pages react-app-rewire-alias react-app-rewired
-```
+</details>
